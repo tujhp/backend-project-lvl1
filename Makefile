@@ -1,20 +1,5 @@
-install: install-deps
+install: npm install
 
-run:
-	npx babel-node 'src/bin/hexlet.js' 10
+start: npx babel-node 'src/bin/brain-games.js' 10
 
-install-deps:
-	npm install
-
-build:
-	rm -rf dist
-	npm run build
-
-test:
-	npm test
-
-lint:
-	npx eslint .
-
-publish:
-	npm publish
+publish: npm publish --dry-run

@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/Yegor28/backend-project-lvl1#readme",
   "bin": {
-    "brain-games": "dist/bin/brain-games.js"
+    "brain-games": "src/bin/brain-games.js"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.0",
@@ -29,5 +29,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
