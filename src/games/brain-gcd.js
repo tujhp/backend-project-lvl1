@@ -1,7 +1,7 @@
 import gameLoop from '..';
 const getRandomInt = (max) => Math.floor(Math.random() * Math.floor(max));
 
-const rule = 'Find the greatest common divisor of given numbers.';
+const rule = 'Find the greatest common divisor of given numbers.\n';
 const gcd = (a, b) => {
   let first = a;
   let second = b;

@@ -10,7 +10,7 @@ export const askName = () => {
 
 export default(rule, generateQuestion) => {
   console.log('Welcome to the Brain Games!');
-  console.log(rule, '\n');
+  console.log(rule);
   const name = askName();
   const count = 3;
   for (let i = 0; i < count; i++) {

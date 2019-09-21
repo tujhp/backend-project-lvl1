@@ -1,7 +1,7 @@
 import gameLoop from '..';
 
 const getRandomInt = (max) => Math.floor(Math.random() * Math.floor(max));
-const rule = 'What is the result of the expression?';
+const rule = 'What is the result of the expression?\n';
 
 const signs = ['+', '-', '*'];
 const chooseSigns = (sign) => {

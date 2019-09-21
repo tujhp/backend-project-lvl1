@@ -11,7 +11,7 @@ const createProgression = () => {
   return progression;
 };
 
-const rule = 'What number is missing in the progression?';
+const rule = 'What number is missing in the progression?\n';
 
 const generateQuestion = () => {
   const progr = createProgression(getRandomInt(10));
