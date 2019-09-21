@@ -1,2 +1,7 @@
 #!/usr/bin/env node
-console.log('Hello, world!');
+//
+//
+// import { askName } from '../index';
+//
+// console.log('Welcome to the Brain Games!');
+// askName();
