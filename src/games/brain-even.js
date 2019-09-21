@@ -1,4 +1,3 @@
-import readlineSync from 'readline-sync';
 import gameLoop from '..';
 
 const getRandomInt = (max) => Math.floor(Math.random() * Math.floor(max));
